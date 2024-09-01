@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrap">
+
+        <button class="show-modal-but" data-modal="#modal-hello">Show Modal Hello</button>
+        <button class="show-modal-but" data-modal="#modal-goodbye">Show Modal Goodbye</button>
+
+
+        <div class="modal-wrap hide" id="modal-hello">
+            <div class="modal">
+
+                <div class="close-cross">
+                    <div class="circle-cross">
+                       <p>x</p>
+                    </div>
+                </div>
+
+                <p>Modal Window</p>
+                <p>Hello</p>
+                
+
+                <button class="hide-modal-buttons">OK</button>
+            </div>
+        </div>
+
+
+        <div class="modal-wrap hide" id="modal-goodbye">
+            <div class="modal">
+                <div class="close-cross">
+                    <div class="circle-cross">
+                       <p>x</p>
+                    </div>
+                </div>
+
+                <p>Modal Window</p>
+                <p>Goodbye</p>
+
+                <button class="hide-modal-buttons">OK</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
